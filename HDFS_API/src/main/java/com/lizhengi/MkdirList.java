@@ -11,7 +11,7 @@ import java.net.URI;
 /**
  * 创建HDFS目录
  *
- * @author lizhengi 2020年8月11日 下午9:53:27
+ * @author lizhengi 2020年8月11日 上午9:53:27
  * @since 1.0.2
  *
  * ps: Hadoop服务器地址为：Carlota1
@@ -31,7 +31,7 @@ public class MkdirList {
         // 4 关闭流
         fs.close();
         // 5 返回创建成功信息
-        System.out.println("ps:目录创建成功!!!");
+        System.out.println(" ps: 目录创建成功!!!");
     }
 
 }

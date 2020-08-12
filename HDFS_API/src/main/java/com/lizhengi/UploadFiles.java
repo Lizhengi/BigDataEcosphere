@@ -11,7 +11,7 @@ import java.net.URI;
 /**
  * 上传本地文件
  *
- * @author lizhengi 2020年8月11日 下午9:45:53
+ * @author lizhengi 2020年8月11日 上午9:45:53
  * @since 1.0.2
  *
  * ps: Hadoop服务器地址为：Carlota1
@@ -32,7 +32,7 @@ public class UploadFiles {
         // 4 关闭流
         fs.close();
         // 5 返回创建成功信息
-        System.out.println("ps:文件上传成功!!!");
+        System.out.println(" ps: 文件上传成功!!!");
     }
 }
 

@@ -13,7 +13,7 @@ import java.net.URI;
 /**
  * 写文件
  *
- * @author lizhengi 2020年8月11日 下午10:30:21
+ * @author lizhengi 2020年8月11日 上午10:30:21
  * @since 1.0.0
  *
  * ps: Hadoop服务器地址为：Carlota1
@@ -36,7 +36,7 @@ public class WriteFile {
         // 7 关闭流
         fs.close();
         // 8 返回创建成功信息
-        System.out.println("ps:文件写入数据成功!!");
+        System.out.println(" ps: 文件写入数据成功!!");
     }
 
 }

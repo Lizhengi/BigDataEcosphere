@@ -12,7 +12,7 @@ import java.net.URI;
 /**
  * 读文件
  *
- * @author lizhengi 2020年8月11日 下午11:00:20
+ * @author lizhengi 2020年8月11日 上午11:00:20
  * @since 1.0.0
  *
  * ps: Hadoop服务器地址为：Carlota1
@@ -36,7 +36,7 @@ public class ReadFile {
         // 7 关闭流
         fs.close();
         // 8 返回创建成功信息
-        System.out.println("ps:文件读取数据成功!!!");
+        System.out.println(" ps: 文件读取数据成功!!!");
     }
 
 }
